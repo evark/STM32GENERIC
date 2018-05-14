@@ -1431,6 +1431,10 @@ F030F.menu.upload_method.serialMethod=Serial [TX/PA9, RX/PA10, BOOT0=1]
 F030F.menu.upload_method.serialMethod.upload.protocol=maple_serial
 F030F.menu.upload_method.serialMethod.upload.tool=serial_upload
 
+F030F.menu.upload_method.bmpMethod=BMP (Black Magic Probe)
+F030F.menu.upload_method.bmpMethod.upload.protocol=gdb_bmp
+F030F.menu.upload_method.bmpMethod.upload.tool=bmp_upload
+
 #-------------------------------------- DEBUG & LOGLEVEL ---------------------------------------#
 F030F.menu.log.default=Release(no-exceptions)
 F030F.menu.log.default.build.log_level=-fno-exceptions
